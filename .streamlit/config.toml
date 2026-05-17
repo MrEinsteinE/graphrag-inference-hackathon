@@ -1,0 +1,5 @@
+# Reduces noisy tracebacks: Streamlit's file watcher was walking `transformers` and
+# hitting optional image modules that import `torchvision`.
+# See https://docs.streamlit.io/develop/concepts/configuration/options
+[server]
+fileWatcherType = "none"

@@ -1,0 +1,15 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+data/chroma_basic_rag/
+data/corpus/
+*.db
+*.log
+.DS_Store
+corpus_for_graphrag.jsonl
+benchmark_results.json
+graphrag_docker/corpus_for_graphrag.jsonl
