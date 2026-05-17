@@ -13,3 +13,4 @@ data/corpus/
 corpus_for_graphrag.jsonl
 benchmark_results.json
 graphrag_docker/corpus_for_graphrag.jsonl
+graphrag_docker/configs/server_config.json
